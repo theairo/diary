@@ -1,27 +1,8 @@
-'use client'
-import { useState, useEffect } from 'react';
-
 import Subject from './subject'
 import Column from './column'
 
 
 export default function Home() {
-    const [data, setData] = useState([])
-
-    useEffect(() => {
-        const storedArray = localStorage.getItem('data');
-        if (storedArray) {
-            setData(JSON.parse(storedArray));
-        }
-        }, []);
-
-
-    useEffect(() => {
-        localStorage.setItem('data', JSON.stringify(data));
-        }, [data]);
-
-
-
   return (
     <div className='bg-slate-50 pb-8'>
         <div className='flex justify-center mt-12'>
