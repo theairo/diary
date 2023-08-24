@@ -76,7 +76,7 @@ export default function Home() {
             </Column>
             <Column>
                 <div className='font-bold text-lg mt-8'>
-                    П'ятниця
+                    П&apos;ятниця
                 </div>
                 <Subject name="Хімія" cab="311" id="28"/>
                 <Subject name="Алгебра" cab="201" id="29"/>
