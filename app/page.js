@@ -5,10 +5,10 @@ import Column from './column'
 export default function Home() {
   return (
     <div className='bg-slate-50 pb-8'>
-        <div className='flex justify-center mt-12'>
+        <div className='flex justify-center'>
         <div className='flex flex-col md:flex-row md:gap-5 lg:gap-6'>
             <Column>
-                <div className='font-bold text-lg mt-8'>
+                <div className='font-bold text-lg mt-8 mb-2'>
                     Понеділок
                 </div>
                 <Subject name="Геометрія" cab="201" id="0"/>
@@ -20,7 +20,7 @@ export default function Home() {
                 <Subject name="Англ. мова" cab="317" id="6"/>
             </Column>
             <Column>
-                <div className='font-bold text-lg mt-8'>
+                <div className='font-bold text-lg mt-8 mb-2'>
                     Вівторок
                 </div>
                 <Subject name="Інформатика" cab="314" id="7"/>
@@ -33,7 +33,7 @@ export default function Home() {
                 <Subject name="Біологія" cab="203" id="14"/>
             </Column>
             <Column>
-                <div className='font-bold text-lg mt-8'>
+                <div className='font-bold text-lg mt-8 mb-2'>
                     Середа
                 </div>
                 <Subject name="Захист" cab="116" id="15"/>
@@ -44,7 +44,7 @@ export default function Home() {
                 <Subject name="Географія" cab="210" id="20"/>
             </Column>
             <Column>
-                <div className='font-bold text-lg mt-8'>
+                <div className='font-bold text-lg mt-8 mb-2'>
                     Четвер
                 </div>
                 <Subject name="Біологія" cab="203" id="21"/>
@@ -56,7 +56,7 @@ export default function Home() {
                 <Subject name="Історія/Інф." cab="311" id="27"/>
             </Column>
             <Column>
-                <div className='font-bold text-lg mt-8'>
+                <div className='font-bold text-lg mt-8 mb-2'>
                     П&apos;ятниця
                 </div>
                 <Subject name="Хімія" cab="311" id="28"/>

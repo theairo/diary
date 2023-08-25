@@ -24,8 +24,8 @@ export default function Subject({name, cab, id}) {
     }
 
     return (
-        <div onClick={toggleButton} className={`cursor-pointer relative w-96 md:w-36 lg:w-48 shadow-lg border rounded py-2 px-4 font-medium  transition-all ${isDone ? 'bg-lime-200 active:bg-lime-400' : 'bg-white hover:opacity-80 active:bg-gray-200'}`}>
-            <div className={`absolute top-1 right-1 bg-blue-200 rounded font-medium w-9 flex justify-center items-center h-8 ${isDone && 'opacity-60'}`}>
+        <div onClick={toggleButton} className={`cursor-pointer relative w-96 text-lg md:text-sm lg:text-base md:w-36 lg:w-48 shadow-lg border rounded py-3 px-6 md:py-2 md:px-4 font-medium  transition-all ${isDone ? 'bg-lime-200 active:bg-lime-400' : 'bg-white hover:opacity-80 active:bg-gray-200'}`}>
+            <div className={`absolute top-1.5 md:top-1 right-1 bg-blue-200 rounded font-medium w-12 h-10 text-lg md:text-base md:w-9 md:h-8 flex justify-center items-center  ${isDone && 'opacity-60'}`}>
                 {cab}
             </div>
             {name}
